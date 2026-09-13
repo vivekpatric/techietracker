@@ -357,6 +357,10 @@
     left: -32px;
 }
 
+
+
+/* The GIF playing inside the CD */
+
 /* CD shiny glossy reflection overlay */
 .cd-disc::after {
   content: '';
