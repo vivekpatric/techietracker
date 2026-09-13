@@ -3,7 +3,7 @@ import { DAYS, MASTER_GOALS, INTERVIEW_ITEMS, REVIEW_ITEMS, EOD_ITEMS, BACKEND_S
 import { requestRender, requestConfirm } from '../lib/uiBus';
 
 export function renderLogin(){
-  const cdImagesrc = './images/marinp.jpeg'
+  const cdImagesrc = '/images/marinp.jpeg'
   return `
   
   <div id="login-bg"></div>
@@ -36,28 +36,7 @@ export function renderLogin(){
     <p class="sync-note">Your progress is tied to this account and follows you to any device you log into.</p>
   </div>`;
   
-  {/* return `
-  <div class="login-wrap">
-    <div class="boot-title pixel" style="text-align:center; font-size:13px; margin-bottom:20px;">75-DAY<br>QUEST LOG</div>
-    <div class="login-panel">
-      <div class="login-field">
-        <label>EMAIL</label>
-        <input type="email" id="auth-email" placeholder="you@example.com" autocomplete="email">
-      </div>
-      <div class="login-field">
-        <label>PASSWORD</label>
-        <input type="password" id="auth-password" placeholder="••••••••" autocomplete="current-password">
-      </div>
-      <div class="login-error" id="auth-error"></div>
-      <button class="btn block" data-action="login">▶ LOG IN</button>
-      <button class="btn block amber" style="margin-top:10px;" data-action="signup">+ CREATE ACCOUNT</button>
-      <div class="login-links">
-        <span data-action="forgot">Forgot password?</span>
-        <span></span>
-      </div>
-    </div>
-    <p class="sync-note">Your progress is tied to this account and follows you to any device you log into.</p>
-  </div>`; */}
+  
 }
 
 export function renderBoot(){
