@@ -3,7 +3,7 @@ import { DAYS, MASTER_GOALS, INTERVIEW_ITEMS, REVIEW_ITEMS, EOD_ITEMS, BACKEND_S
 import { requestRender, requestConfirm } from '../lib/uiBus';
 
 export function renderLogin(){
-  const cdImagesrc = '../images/maringif.gif'
+  const cdImagesrc = '/images/maringif.gif'
   return `
   
   <div id="login-bg"></div>
